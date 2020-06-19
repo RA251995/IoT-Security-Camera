@@ -31,9 +31,7 @@ A camera enabled security system having both local autonomous and remote manual 
   * __Bluetooth:__ Bluetooth 4\.1Low Energy
   * __Ports:__ HDMI\, Audio\-videojack\,4USB 2\.0\,Ethernet\, CameraSerial Interface \(CSI\)\, Display Serial Interface \(DSI\)
 
----
-
-<img align="left" src="img/IoT_Presentation2.jpg" height=400px />
+<img src="img/IoT_Presentation2.jpg" height=400px />
 
 * Raspberry Pi Camera Rev 1\.3
   * __Still resolution__ : 5 Megapixels
@@ -42,9 +40,7 @@ A camera enabled security system having both local autonomous and remote manual 
   * __Size__ :Around 25 × 24 × 9 mm
   * __Weight__ : 3g
 
----
-
-<img align="left" src="img/IoT_Presentation3.jpg" height=400px />
+<img src="img/IoT_Presentation3.jpg" height=400px />
 
 * Pan & Tilt Module
   * 2 x SG90 servo
@@ -59,7 +55,7 @@ A camera enabled security system having both local autonomous and remote manual 
 
 # SYSTEM OVERVIEW
 
-<img src="img/IoT_Presentation4.png" width=500px />
+<img src="img/IoT_Presentation4.png" height=500px />
 
 # LIVE STREAMING
 
@@ -67,7 +63,8 @@ A camera enabled security system having both local autonomous and remote manual 
   * <ins>U</ins>ser space <ins>V</ins>ideo <ins>4L</ins>inux
     * __User space__ driversfor real or virtual video input and outputdevices
     * Includes genericpurpose _Streaming Server_ plug\-in\, especially made forIoTdevices\.
-<img src="img/IoT_Presentation6.png" width=384px />
+
+<img src="img/IoT_Presentation6.png" height=400px />
 
 # FACE IDENTIFICATION ALGORITHM
 
@@ -105,7 +102,7 @@ HAAR CASCADE CLASSIFER
 
 # ACCESS CONTROL & LOGGING
 
-<img src="img/IoT_Presentation5.png" width=500px />
+<img src="img/IoT_Presentation5.png" height=500px />
 
 # ACCESS CONTROL PUSH NOTIFICATIONS
 
@@ -115,7 +112,7 @@ Offerscross\-platformreliablenotification delivery
 
 Based on light\-weight MQTT protocol
 
-<img src="img/IoT_Presentation7.png" width=483px />
+<img src="img/IoT_Presentation7.png" height=500px />
 
 # ACCESS CONTROL PUSH NOTIFICATIONS BACKEND
 
@@ -154,8 +151,6 @@ Accessed remotely by Android Application
 
 # CAMERA ORIENTATION CONTROL
 
-<img src="img/IoT_Presentation9.jpg" height=400px />
-
 Using 2 SG90 servo motors attached to pan & tilt module
 
 Connected to Pi PWM pins
@@ -168,9 +163,9 @@ Handled by PHP script controlling Pi PWM duty cycle
 
 # CAMERA ORIENTATION CONTROL DC SERVO MOTOR
 
-<img src="img/IoT_Presentation10.jpg" width=500px />
+<img src="img/IoT_Presentation9.png" width=500px />
 
-<img src="img/IoT_Presentation11.jpg" width=500px />
+<img src="img/IoT_Presentation10.png" width=500px />
 
 # IMPROVEMENTS FOR THE PROJECT
 
