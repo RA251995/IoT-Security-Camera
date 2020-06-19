@@ -31,6 +31,8 @@ A camera enabled security system having both local autonomous and remote manual 
   * __Bluetooth:__ Bluetooth 4\.1Low Energy
   * __Ports:__ HDMI\, Audio\-videojack\,4USB 2\.0\,Ethernet\, CameraSerial Interface \(CSI\)\, Display Serial Interface \(DSI\)
 
+---
+
 <img align="left" src="img/IoT_Presentation2.jpg" height=400px />
 
 * Raspberry Pi Camera Rev 1\.3
@@ -39,6 +41,8 @@ A camera enabled security system having both local autonomous and remote manual 
   * Plugs into CSI Connector of RaspberryPi
   * __Size__ :Around 25 × 24 × 9 mm
   * __Weight__ : 3g
+
+---
 
 <img align="left" src="img/IoT_Presentation3.jpg" height=400px />
 
@@ -50,6 +54,8 @@ A camera enabled security system having both local autonomous and remote manual 
     * __Gear Type__ : Plastic
     * __Rotation__ :0°\- 180°
     * __Weight__ :9gm
+
+---
 
 # SYSTEM OVERVIEW
 
