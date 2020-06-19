@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Security Cam</string>
+    <string name="registeringDevice">Registering Device...</string>
+    <string name="subscribingDevice">Subscribing Device</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="network_error">Network Error!</string>
+</resources>
