@@ -1,10 +1,8 @@
 # INTERNET ENABLED SECURITY SYSTEM
 
+A camera enabled security system having both local autonomous and remote manual control capabilities\.
+
 <img src="img/IoT_Presentation0.jpg" width=500px />
-
-# AIM OF THE PROJECT
-
-To develop a camera enabled security system having both local autonomous and remote manual control capabilities\.
 
 # FEATURES
 
