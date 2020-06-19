@@ -2,7 +2,9 @@
 
 A camera enabled security system having both local autonomous and remote manual control capabilities\.
 
-<img src="img/IoT_Presentation0.jpg" width=500px />
+<p align="center">
+	<img src="img/IoT_Presentation0.jpg" width=500px />
+</p>
 
 # FEATURES
 
@@ -29,7 +31,7 @@ A camera enabled security system having both local autonomous and remote manual 
   * __Bluetooth:__ Bluetooth 4\.1Low Energy
   * __Ports:__ HDMI\, Audio\-videojack\,4USB 2\.0\,Ethernet\, CameraSerial Interface \(CSI\)\, Display Serial Interface \(DSI\)
 
-<img src="img/IoT_Presentation2.jpg" height=400px />
+<img align="left" src="img/IoT_Presentation2.jpg" height=400px />
 
 * Raspberry Pi Camera Rev 1\.3
   * __Still resolution__ : 5 Megapixels
@@ -38,7 +40,7 @@ A camera enabled security system having both local autonomous and remote manual 
   * __Size__ :Around 25 × 24 × 9 mm
   * __Weight__ : 3g
 
-<img src="img/IoT_Presentation3.jpg" height=400px />
+<img align="left" src="img/IoT_Presentation3.jpg" height=400px />
 
 * Pan & Tilt Module
   * 2 x SG90 servo
@@ -59,7 +61,7 @@ A camera enabled security system having both local autonomous and remote manual 
   * <ins>U</ins>ser space <ins>V</ins>ideo <ins>4L</ins>inux
     * __User space__ driversfor real or virtual video input and outputdevices
     * Includes genericpurpose _Streaming Server_ plug\-in\, especially made forIoTdevices\.
-<img src="img/IoT_Presentation12.png" width=384px />
+<img src="img/IoT_Presentation6.png" width=384px />
 
 # FACE IDENTIFICATION ALGORITHM
 
@@ -100,8 +102,6 @@ HAAR CASCADE CLASSIFER
 <img src="img/IoT_Presentation5.png" width=500px />
 
 # ACCESS CONTROL PUSH NOTIFICATIONS
-
-<img src="img/IoT_Presentation6.png" width=500px />
 
 Pushy Cloud Messaging Service
 
