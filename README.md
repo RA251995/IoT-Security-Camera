@@ -3,7 +3,7 @@
 A camera enabled security system having both local autonomous and remote manual control capabilities\.
 
 <p align="center">
-	<img src="img/IoT_Presentation0.jpg" width=500px />
+	<img src="img/IoT_Presentation0.jpg" height=400px />
 </p>
 
 ## FEATURES
@@ -63,7 +63,7 @@ A camera enabled security system having both local autonomous and remote manual 
     * __User space__ driversfor real or virtual video input and outputdevices
     * Includes genericpurpose _Streaming Server_ plug\-in\, especially made forIoTdevices\.
 
-<img src="img/IoT_Presentation6.png" height=400px />
+<img src="img/IoT_Presentation6.png" height=500px />
 
 ## FACE IDENTIFICATION ALGORITHM
 
@@ -94,7 +94,7 @@ Identify the face based on minimum distance\.
 
 ## ACCESS CONTROL & LOGGING
 
-<img src="img/IoT_Presentation5.png" height=500px />
+<img src="img/IoT_Presentation5.png" height=400px />
 
 ## ACCESS CONTROL PUSH NOTIFICATIONS
 
@@ -104,7 +104,7 @@ Offerscross\-platformreliablenotification delivery
 
 Based on light\-weight MQTT protocol
 
-<img src="img/IoT_Presentation7.png" height=500px />
+<img src="img/IoT_Presentation7.png" height=400px />
 
 ## ACCESS CONTROL PUSH NOTIFICATIONS BACKEND
 
@@ -117,13 +117,13 @@ API HTTP POST Request using Python
 * __Request__  __Headers__
 * Content\-type:application/json
 * __JSON Payload__
-  * \{
-  * 'data': \{
-  * 'message' : __MESSAGE__ \,
-  * 'username' : __USERNAME__
-  * \}\,
-  * 'to': '/topics/ __BROADCAST\_TOPIC__ '
-  * \}
+   \{
+   'data': \{
+   'message' : __MESSAGE__ \,
+   'username' : __USERNAME__
+   \}\,
+   'to': '/topics/ __BROADCAST\_TOPIC__ '
+   \}
 
 ## ACCESS CONTROL PUSH NOTIFICATIONS CLIENT
 
@@ -133,7 +133,7 @@ Android __BroadcastReceiver__ Service  running in the background
 
 ## ACCESS LOGGING
 
-<img src="img/IoT_Presentation8.png" height=400px />
+<img src="img/IoT_Presentation8.png" height=500px />
 
 Access history saved to a file in Raspberry Pi
 
@@ -155,9 +155,9 @@ Handled by PHP script controlling Pi PWM duty cycle
 
 ## CAMERA ORIENTATION CONTROL DC SERVO MOTOR
 
-<img src="img/IoT_Presentation9.png" height=500px />
+<img src="img/IoT_Presentation9.png" height=400px />
 
-<img src="img/IoT_Presentation10.png" height=500px />
+<img src="img/IoT_Presentation10.png" height=400px />
 
 ## IMPROVEMENTS FOR THE PROJECT
 
