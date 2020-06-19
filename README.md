@@ -6,7 +6,7 @@ A camera enabled security system having both local autonomous and remote manual 
 	<img src="img/IoT_Presentation0.jpg" width=500px />
 </p>
 
-# FEATURES
+## FEATURES
 
 * Livecamerafeed streaming
 * Auto unlock with face identification
@@ -15,11 +15,11 @@ A camera enabled security system having both local autonomous and remote manual 
   * Access logging
   * Camera orientation control
 
-# MAIN HARDWARE COMPONENTS
+## MAIN HARDWARE COMPONENTS
 
 <img src="img/IoT_Presentation1.jpg" width=500px />
 
-* Raspberry Pi
+### Raspberry Pi
   * __SoC__  __:__ Broadcom BCM28373 Model B
   * __CPU__  __:__ 1\.2GHz Quad\-coreARMCortex\-A53                                                              \(50% faster than Raspberry Pi 2\)
   * __GPU:__ BroadcomVideoCoreIV
@@ -33,7 +33,7 @@ A camera enabled security system having both local autonomous and remote manual 
 
 <img src="img/IoT_Presentation2.jpg" height=400px />
 
-* Raspberry Pi Camera Rev 1\.3
+### Raspberry Pi Camera Rev 1\.3
   * __Still resolution__ : 5 Megapixels
   * __Video modes__ :1080p @ 30 fps\, 720p @ 60 fpsand640×480 @ p60/90 fps
   * Plugs into CSI Connector of RaspberryPi
@@ -51,13 +51,12 @@ A camera enabled security system having both local autonomous and remote manual 
     * __Rotation__ :0°\- 180°
     * __Weight__ :9gm
 
----
 
-# SYSTEM OVERVIEW
+## SYSTEM OVERVIEW
 
 <img src="img/IoT_Presentation4.png" height=500px />
 
-# LIVE STREAMING
+## LIVE STREAMING
 
   * Using Raspberry Camera & UV4L streamer software
   * <ins>U</ins>ser space <ins>V</ins>ideo <ins>4L</ins>inux
@@ -66,7 +65,7 @@ A camera enabled security system having both local autonomous and remote manual 
 
 <img src="img/IoT_Presentation6.png" height=400px />
 
-# FACE IDENTIFICATION ALGORITHM
+## FACE IDENTIFICATION ALGORITHM
 
 Get image from the camera
 
@@ -76,35 +75,28 @@ Quantify each face to construct128\-dembeddingsusingdlibneural network
 
 Classify face using k\-NearestNeighbourmethod
 
-# FACE IDENTIFICATION ALGORITHM HAAR CASCADE CLASSIFIER
+## FACE IDENTIFICATION ALGORITHM HAAR CASCADE CLASSIFIER
 
-Machinelearning based approach where a cascade function is trained from a lot of positive and negative images\. It is then used to detect objectsin images\.
+Machine learning based approach where a cascade function is trained from a lot of positive and negative images\. It is then used to detect objectsin images\.
 
-HAAR CASCADE CLASSIFER
-
-# FACE IDENTIFICATION ALGORITHM CREATING FACE EMBEDDINGS
+## FACE IDENTIFICATION ALGORITHM CREATING FACE EMBEDDINGS
 
 Quantify faces into 128\-d embedding usingdlibpre\-trained neural network\.
 
 The neural network has been trainedona dataset of ~3 millionimages using deep\-metriclearning \(99\.38% accuracy\)\.
 
 
-# FACE IDENTIFICATION ALGORITHM K-NEAREST NEIGHBOUR CLASSIFICATION
+## FACE IDENTIFICATION ALGORITHM K-NEAREST NEIGHBOUR CLASSIFICATION
 
 Find Euclidean distance between the embeddings and already stored embeddings of known faces\.
 
 Identify the face based on minimum distance\.
 
-
-# FACE IDENTIFICATION ALGORITHM SUMMARY
-
-HAAR CASCADE CLASSIFER
-
-# ACCESS CONTROL & LOGGING
+## ACCESS CONTROL & LOGGING
 
 <img src="img/IoT_Presentation5.png" height=500px />
 
-# ACCESS CONTROL PUSH NOTIFICATIONS
+## ACCESS CONTROL PUSH NOTIFICATIONS
 
 Pushy Cloud Messaging Service
 
@@ -114,7 +106,7 @@ Based on light\-weight MQTT protocol
 
 <img src="img/IoT_Presentation7.png" height=500px />
 
-# ACCESS CONTROL PUSH NOTIFICATIONS BACKEND
+## ACCESS CONTROL PUSH NOTIFICATIONS BACKEND
 
 Raspberry Pi
 
@@ -133,13 +125,13 @@ API HTTP POST Request using Python
   * 'to': '/topics/ __BROADCAST\_TOPIC__ '
   * \}
 
-# ACCESS CONTROL PUSH NOTIFICATIONS CLIENT
+## ACCESS CONTROL PUSH NOTIFICATIONS CLIENT
 
 Android Application
 
 Android __BroadcastReceiver__ Service  running in the background
 
-# ACCESS LOGGING
+## ACCESS LOGGING
 
 <img src="img/IoT_Presentation8.png" height=400px />
 
@@ -149,7 +141,7 @@ File hosted on Apache HTTP Server running on Raspberry Pi
 
 Accessed remotely by Android Application
 
-# CAMERA ORIENTATION CONTROL
+## CAMERA ORIENTATION CONTROL
 
 Using 2 SG90 servo motors attached to pan & tilt module
 
@@ -161,13 +153,13 @@ GET Request send to Pi web server based on user input \(← / → / ↑ / ↓ \)
 
 Handled by PHP script controlling Pi PWM duty cycle
 
-# CAMERA ORIENTATION CONTROL DC SERVO MOTOR
+## CAMERA ORIENTATION CONTROL DC SERVO MOTOR
 
-<img src="img/IoT_Presentation9.png" width=500px />
+<img src="img/IoT_Presentation9.png" height=500px />
 
-<img src="img/IoT_Presentation10.png" width=500px />
+<img src="img/IoT_Presentation10.png" height=500px />
 
-# IMPROVEMENTS FOR THE PROJECT
+## IMPROVEMENTS FOR THE PROJECT
 
 Real\-time streaming FPS can be improved by usingWebRTCprotocol
 
@@ -179,7 +171,7 @@ Centroid tracking can be included to track objects
 
 Android application can be ported to other platforms
 
-# SCOPE OF THE PROJECT
+## SCOPE OF THE PROJECT
 
 Face identification based attendance system
 
