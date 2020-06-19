@@ -42,7 +42,7 @@ A camera enabled security system having both local autonomous and remote manual 
 
 <img src="img/IoT_Presentation3.jpg" height=400px />
 
-* Pan & Tilt Module
+### Pan & Tilt Module
   * 2 x SG90 servo
     * __Operating__  __Voltage__ : \+5V
     * __Torque__ : 2\.5kg/cm
@@ -155,9 +155,9 @@ Handled by PHP script controlling Pi PWM duty cycle
 
 ## CAMERA ORIENTATION CONTROL DC SERVO MOTOR
 
-<img src="img/IoT_Presentation9.png" height=400px />
+<img src="img/IoT_Presentation9.png" width=500px />
 
-<img src="img/IoT_Presentation10.png" height=400px />
+<img src="img/IoT_Presentation10.png" width=500px />
 
 ## IMPROVEMENTS FOR THE PROJECT
 
