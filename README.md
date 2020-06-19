@@ -1,10 +1,8 @@
 # INTERNET ENABLED SECURITY SYSTEM
 
+A camera enabled security system having both local autonomous and remote manual control capabilities\.
+
 <img src="img/IoT_Presentation0.jpg" width=500px />
-
-# AIM OF THE PROJECT
-
-To develop a camera enabled security system having both local autonomous and remote manual control capabilities\.
 
 # FEATURES
 
@@ -31,7 +29,7 @@ To develop a camera enabled security system having both local autonomous and rem
   * __Bluetooth:__ Bluetooth 4\.1Low Energy
   * __Ports:__ HDMI\, Audio\-videojack\,4USB 2\.0\,Ethernet\, CameraSerial Interface \(CSI\)\, Display Serial Interface \(DSI\)
 
-<img src="img/IoT_Presentation2.jpg" width=500px />
+<img src="img/IoT_Presentation2.jpg" height=400px />
 
 * Raspberry Pi Camera Rev 1\.3
   * __Still resolution__ : 5 Megapixels
@@ -40,7 +38,7 @@ To develop a camera enabled security system having both local autonomous and rem
   * __Size__ :Around 25 × 24 × 9 mm
   * __Weight__ : 3g
 
-<img src="img/IoT_Presentation3.jpg" width=500px />
+<img src="img/IoT_Presentation3.jpg" height=400px />
 
 * Pan & Tilt Module
   * 2 x SG90 servo
@@ -55,48 +53,13 @@ To develop a camera enabled security system having both local autonomous and rem
 
 <img src="img/IoT_Presentation4.png" width=500px />
 
-<img src="img/IoT_Presentation5.png" width=500px />
-
-<img src="img/IoT_Presentation6.png" width=500px />
-
-LIVE CAMERA STREAMING
-
-__PUSHY CLOUD SERVER__
-
-<img src="img/IoT_Presentation7.jpg" width=462px />
-
-__ANDROID__
-
-__APPLICATION__
-
-<img src="img/IoT_Presentation8.png" width=500px />
-
-<img src="img/IoT_Presentation9.jpg" width=500px />
-
-<img src="img/IoT_Presentation10.jpg" width=500px />
-
-<img src="img/IoT_Presentation11.png" width=500px />
-
-ELECTRIC
-
-LOCK
-
-\( _LED USED FOR_
-
-_PROTOTYPING_ \)
-
-PAN & TILT
-
-MODULE
-
-<img src="img/IoT_Presentation12.png" width=384px />
-
 # LIVE STREAMING
 
   * Using Raspberry Camera & UV4L streamer software
-  * _U_ ser space _V_ ideo _4L_ inux
+  * <ins>U</ins>ser space <ins>V</ins>ideo <ins>4L</ins>inux
     * __User space__ driversfor real or virtual video input and outputdevices
     * Includes genericpurpose _Streaming Server_ plug\-in\, especially made forIoTdevices\.
+<img src="img/IoT_Presentation12.png" width=384px />
 
 # FACE IDENTIFICATION ALGORITHM
 
@@ -108,53 +71,37 @@ Quantify each face to construct128\-dembeddingsusingdlibneural network
 
 Classify face using k\-NearestNeighbourmethod
 
-# FACE IDENTIFICATION ALGORITHMHAAR CASCADE CLASSIFIER
+# FACE IDENTIFICATION ALGORITHM HAAR CASCADE CLASSIFIER
 
 Machinelearning based approach where a cascade function is trained from a lot of positive and negative images\. It is then used to detect objectsin images\.
 
 HAAR CASCADE CLASSIFER
 
-# FACE IDENTIFICATION ALGORITHMCREATING FACE EMBEDDINGS
+# FACE IDENTIFICATION ALGORITHM CREATING FACE EMBEDDINGS
 
 Quantify faces into 128\-d embedding usingdlibpre\-trained neural network\.
 
 The neural network has been trainedona dataset of ~3 millionimages using deep\-metriclearning \(99\.38% accuracy\)\.
 
-<img src="img/IoT_Presentation15.png" width=500px />
 
-# FACE IDENTIFICATION ALGORITHMK-NEAREST NEIGHBOUR CLASSIFICATION
+# FACE IDENTIFICATION ALGORITHM K-NEAREST NEIGHBOUR CLASSIFICATION
 
-Find Euclidean distance between theembeddingsand already storedembeddingsof known faces\.
+Find Euclidean distance between the embeddings and already stored embeddings of known faces\.
 
 Identify the face based on minimum distance\.
 
-<img src="img/IoT_Presentation17.png" width=500px />
 
-<span style="color:#FF0000"> __Row with minimum distance__ </span>
-
-# FACE IDENTIFICATION ALGORITHMSUMMARY
+# FACE IDENTIFICATION ALGORITHM SUMMARY
 
 HAAR CASCADE CLASSIFER
 
 # ACCESS CONTROL & LOGGING
 
-IF FACE IDENTIFIED?
+<img src="img/IoT_Presentation5.png" width=500px />
 
-LOG ACTIVITY &
+# ACCESS CONTROL PUSH NOTIFICATIONS
 
-SEND ACCESS REQUEST TO ADMIN MOBILE
-
-LOG ACTIVITY &
-
-UNLOCK DOOR
-
-IF ACCESS GRANTED?
-
-SEND ACCESS GRANTED MESSAGE TO ADMIN
-
-# ACCESS CONTROLPUSH NOTIFICATIONS
-
-<img src="img/IoT_Presentation21.png" width=500px />
+<img src="img/IoT_Presentation6.png" width=500px />
 
 Pushy Cloud Messaging Service
 
@@ -162,11 +109,9 @@ Offerscross\-platformreliablenotification delivery
 
 Based on light\-weight MQTT protocol
 
-<img src="img/IoT_Presentation22.png" width=483px />
+<img src="img/IoT_Presentation7.png" width=483px />
 
-# ACCESS CONTROLPUSH NOTIFICATIONS BACKEND
-
-<img src="img/IoT_Presentation23.png" width=500px />
+# ACCESS CONTROL PUSH NOTIFICATIONS BACKEND
 
 Raspberry Pi
 
@@ -185,9 +130,7 @@ API HTTP POST Request using Python
   * 'to': '/topics/ __BROADCAST\_TOPIC__ '
   * \}
 
-# ACCESS CONTROLPUSH NOTIFICATIONS CLIENT
-
-<img src="img/IoT_Presentation24.png" width=500px />
+# ACCESS CONTROL PUSH NOTIFICATIONS CLIENT
 
 Android Application
 
@@ -195,7 +138,7 @@ Android __BroadcastReceiver__ Service  running in the background
 
 # ACCESS LOGGING
 
-<img src="img/IoT_Presentation25.png" width=500px />
+<img src="img/IoT_Presentation8.png" height=400px />
 
 Access history saved to a file in Raspberry Pi
 
@@ -203,9 +146,9 @@ File hosted on Apache HTTP Server running on Raspberry Pi
 
 Accessed remotely by Android Application
 
-<img src="img/IoT_Presentation26.jpg" width=500px />
-
 # CAMERA ORIENTATION CONTROL
+
+<img src="img/IoT_Presentation9.jpg" height=400px />
 
 Using 2 SG90 servo motors attached to pan & tilt module
 
@@ -217,25 +160,11 @@ GET Request send to Pi web server based on user input \(← / → / ↑ / ↓ \)
 
 Handled by PHP script controlling Pi PWM duty cycle
 
-# CAMERA ORIENTATION CONTROLDC SERVO MOTOR
+# CAMERA ORIENTATION CONTROL DC SERVO MOTOR
 
-PWM to Voltage Converter
+<img src="img/IoT_Presentation10.jpg" width=500px />
 
-Position Sensor
-
-\(Potentiometer\)
-
-<img src="img/IoT_Presentation27.png" width=500px />
-
-<img src="img/IoT_Presentation28.png" width=379px />
-
-<img src="img/IoT_Presentation29.png" width=379px />
-
-<img src="img/IoT_Presentation30.png" width=500px />
-
-<img src="img/IoT_Presentation31.png" width=500px />
-
-<img src="img/IoT_Presentation32.png" width=379px />
+<img src="img/IoT_Presentation11.jpg" width=500px />
 
 # IMPROVEMENTS FOR THE PROJECT
 
